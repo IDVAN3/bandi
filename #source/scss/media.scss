@@ -60,7 +60,31 @@
     }
 }
 @media (max-width: 640px) {
-    
+    .slider-header .slick-dots{
+        right: calc(50% - 42px);
+        top: 93%;
+    }
+    .slider-header .slick-dots{
+        flex-direction: row;
+    }
+    .header__text:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -35px;
+        width: 28px;
+        height: 1px;
+        background-color: #0feb9e;
+    }
+    .header__text:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -35px;
+        width: 28px;
+        height: 1px;
+        background-color: #0feb9e;
+    }
     body.lock{
 		overflow: hidden;
     }

@@ -1,6 +1,6 @@
 .header{
     position: relative;
-    background: url('../img/Header_Img.png');
+    // background: url('../img/Header_Img.png');
     background-size: cover;
     height: 100vh;
     min-height: 450px;
@@ -171,4 +171,41 @@ a.header__link.active:before{
 }
 .header__list li{
     padding: 5px 10px 5px 10px;
+}
+.slider-header{
+    position: relative;
+}
+.slider-header .dots{
+    display: flex;
+    
+}
+.slider-header .slick-dots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    right: 48px;
+}
+.slider-header .slick-list{
+    padding-bottom: 0px;
+}
+.slider-header .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.slider-header .slick-dots button{
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 0.2;
+    border: 1px solid #ffffff;
+}
+.slider-header .slick-dots li.slick-active button{
+    background-color: #ffffff;
+    opacity: 1;
 }

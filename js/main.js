@@ -47,6 +47,12 @@ $(document).ready(function () {
             $('.js-popup').fadeOut(300);
     });
     // end попап
+    $('.slider-header').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+    });
 
     $('.features__item').slick({
         slidesToShow: 3,
