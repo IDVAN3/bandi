@@ -7,6 +7,7 @@
 <head>
     <title>Главная</title>
     <!-- Подключение CSS -->
+    <link rel="stylesheet" href="libs/wow/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <link rel="shortcut icon" href="img/icons/favicon.png">
@@ -88,7 +89,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-works">
+        <section class="section-works wow rotateInUpLeft">
             <div class="container">
                 <div class="works">
                     <h2 class="features__title">Works</h2>
@@ -123,7 +124,7 @@
                 </div>
             </div>
         </section>
-        <div class="section-work-img">
+        <div class="section-work-img wow fadeInRight" data-wow-duration="1s">
             <a id="id3" class="anchor"></a>
             <div class="wrapper-work-img" data-categories="Branding">
                 <img src="img/works/1.png" alt="">
@@ -206,7 +207,7 @@
                 </div>
             </div>
         </div>
-        <section class="section-team">
+        <section class="section-team wow fadeInLeft" data-wow-duration="1s">
             <div class="container">
                 <div class="team">
                     <h2 class="features__title">Meet Our Team</h2>
@@ -599,6 +600,10 @@
     <!-- Подключеине скриптов -->
     <script src="libs/jquery/jquery.min.js"></script>
     <script src="libs/slick.min.js"></script>
+    <script src="libs/wow/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/main.js"></script>
 </body>
 
