@@ -157,6 +157,14 @@
     .facts__item{
         flex: 0 0 100%;
     }
+    .header__text:before {
+        width: 0;
+        height: 0;
+    }
+    .header__text:after {
+        width: 0;
+        height: 0;
+    }
 }
 
 @media (max-width: 360px) {

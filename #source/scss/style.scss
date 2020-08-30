@@ -441,7 +441,7 @@ $padd-container: 20;
     justify-content: center;
     flex-wrap: wrap;
 }
-.wrap-input{
+.dots{
     display: flex;
 }
 .contact-right{
@@ -536,6 +536,15 @@ $padd-container: 20;
     height: 20px;
     fill: #fff;
     transition: 0.4s;
+}
+.bg-hearth{
+    width: 20px;
+    height: 20px;
+    fill: #CECECE;
+    transition: 0.4s;
+}
+.fill-white{
+    fill: #fff;
 }
 .item-icon1:hover .bg-icons1{
     opacity: 0.3;

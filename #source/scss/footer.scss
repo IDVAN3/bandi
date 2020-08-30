@@ -28,10 +28,10 @@
     flex-wrap: wrap;
 }
 .shape-footer{
+    position: relative;
     width: 260px;
     height: 46px;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
+
     transition: 0.4s;
 
     display: flex;
@@ -42,9 +42,19 @@
     }
     
 }
-.shape-footer:hover{
-    background: rgba(16, 22, 54, 0.2);
+.input-footer{
+    width: 260px;
+    height: 46px;
+    background-color: #21b697;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    @include anim(0.4s, 0s);
+    &:focus{
+        border-color: #101636;
+    }
 }
+
 .footer__link{
     font-size: 13px;
     color: #ffffff;
@@ -74,4 +84,14 @@
     width: 18px;
     height: 14px;
     max-width: 18px;
+}
+.btn-shape{
+    position: absolute;
+    background: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
 }

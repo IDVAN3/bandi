@@ -39,6 +39,7 @@
         opacity: 0.9;
         color: #ffffff;
         position: relative;
+        max-width: 80%;
     }
     &__text:before{
         content: '';
@@ -175,10 +176,7 @@ a.header__link.active:before{
 .slider-header{
     position: relative;
 }
-.slider-header .dots{
-    display: flex;
-    
-}
+
 .slider-header .slick-dots{
     display: flex;
     flex-direction: column;
